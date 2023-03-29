@@ -1,0 +1,147 @@
+@media (min-width: 550px) {
+  .about .section-main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+  }
+
+  .about .section-main > div {
+    padding: 15px;
+    width: 50%;
+  }
+
+  .w-580 {
+    width: 530px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .section-header {
+    margin-left: auto;
+    margin-right: auto;
+    width: 460px;
+  }
+
+  .menu ul {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+  }
+
+  .menu ul li {
+    width: 30%;
+  }
+
+  .gallery .images-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+  }
+  .gallery .images-container li {
+    width: 49%;
+  }
+
+  .stats .list-item {
+    width: 50%;
+  }
+}
+
+@media (min-width: 770px) {
+  .bars-menu {
+    display: none;
+  }
+
+  .header > nav > img {
+    margin: 20px 0;
+  }
+
+  .header > nav {
+    position: absolute;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .deckstop-menu {
+    position: relative;
+    display: flex;
+    top: 0;
+    height: auto;
+  }
+
+  .deckstop-menu > li {
+    background-color: transparent;
+    padding: 15px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+  }
+
+  .deckstop-menu > li a {
+    font-size: 13px;
+  }
+
+  .w-720 {
+    width: 720px;
+  }
+
+  .gallery .images-container li {
+    width: 33%;
+  }
+
+  .fix {
+    position: fixed;
+    background-color: white;
+    justify-content: center;
+  }
+
+  .stats .list-item {
+    width: auto;
+  }
+
+  .contact form > div:first-child {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .contact form > div:first-child input {
+    width: 48%;
+  }
+
+  .footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+  .footer > div {
+    width: 30%;
+  }
+
+  .price .section-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+  .price .section-main > ul {
+    width: 48%;
+  }
+}
+
+@media (min-width: 990px) {
+  .section-header {
+    width: 600px;
+  }
+  .w-940 {
+    width: 940px;
+  }
+}
